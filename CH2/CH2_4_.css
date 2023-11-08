@@ -1,0 +1,39 @@
+body {
+    background-color: grey;
+    color: white;
+}
+
+.artErik {
+    background-image: url("pingouin.png");
+    background-origin: border-box;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: blue;
+    border:10px dashed orange;
+    margin-bottom: 20px;
+}
+
+.artHistoire {
+    background-image: url("pingouin.png");
+    background-origin: content-box;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: green;
+    border:10px dashed orange;
+    margin-bottom: 20px;
+}
+
+
+.artDescendance {
+    background-image: url("pingouin.png");
+    background-origin: padding-box;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: red;
+    border:10px dashed orange;
+    padding: 10px;
+}
+

@@ -1,0 +1,31 @@
+h1 {
+    color: purple;
+}
+
+body {
+    background-color: green;
+    background-image: url("pingouin.png");
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+article {
+    background-image: url("pingouin.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: red;
+    padding: 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+
+}
+
+section {
+    background-color: orange;
+    opacity: 0.6;
+}
+
