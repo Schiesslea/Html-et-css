@@ -1,0 +1,107 @@
+/* Css pour le fichier "CH2_5_Apparences_dynamiques.html" pour l'exercice 5 du chapitre 2 */
+
+body {
+    font-family: "Courier New";
+    font-size: 12px;
+    text-align: justify;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    background-color: lightyellow;
+}
+.intro {
+    color: purple;
+    font-family: Arial;
+    font-size: 16px;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.para1 {
+    font-family: Arial;
+    font-size: 11px;
+    margin-top:25px;
+    text-indent : 20px;
+}
+
+.para1:hover {
+    font-style: italic;
+}
+
+.para2 {
+    font-family: Arial;
+    font-size: 11px;
+    margin-bottom:25px;
+    text-indent : 20px;
+}
+
+.para2:hover {
+    font-style: italic;
+}
+
+.titre {
+    color: blue;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.titre:active {
+    text-decoration: underline;
+}
+
+.titre:hover {
+    color: green;
+}
+
+.para3 {
+    font-family: "Times New Roman";
+    font-size: 12px;
+    font-style: italic;
+    margin: 10px 1cm 20px 1cm;
+}
+
+.para3:hover {
+    font-style: italic;
+}
+
+.parasoustitre {
+    text-indent: 12px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.parasoustitre:hover {
+    font-style: italic;
+}
+
+.soustitre {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.para4 {
+    font-style: italic;
+    text-indent: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.para4:hover {
+    font-style: italic;
+}
+
+.parasoustitre2 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: skyblue;
+}
+
+.parasoustitre2:hover {
+    font-style: italic;
+}
