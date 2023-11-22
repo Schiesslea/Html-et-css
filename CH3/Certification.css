@@ -1,0 +1,39 @@
+p {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
+
+ul {
+    list-style: square;
+    margin-left: 50px;
+}
+
+body {
+    background-color: beige;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#typing-text::after {
+    content: 'PIX';
+    font-size: 42px;
+    font-family: monospace;
+    animation: change-text 15s infinite;
+}
+
+
+@keyframes change-text {
+    from   { content: 'PIX'; }
+    25%  { content: 'ANSSI'; }
+    50%  { content: 'RGPD'; }
+    75%  { content: 'ECRIT+'; }
+    to { content: 'PIX'; }
+}
