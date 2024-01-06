@@ -1,3 +1,17 @@
+body {
+    color : white;
+
+}
+h1 {
+    text-align: center;
+}
+
+p {
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    font-size: 180%;
+    text-align: justify ;
+}
 .bg {
     background: url(https://i.ibb.co/87GbbFP/2799006.jpg) no-repeat;
     background-size: cover;
